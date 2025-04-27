@@ -1,0 +1,344 @@
+/* === Basic page styles === */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #222;
+}
+
+/* Universal container */
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #0001;
+    padding: 24px 18px;
+}
+
+
+header {
+    background: #357ab8;
+    color: #fff;
+    padding: 16px 0;
+    text-align: center;
+    margin-bottom: 18px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+header nav {
+    margin-top: 8px;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1em;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0001;
+    padding: 24px 18px;
+}
+
+/* === Filter form === */
+.filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 20px;
+    align-items: flex-end;
+}
+.filter-form label {
+    font-size: 1em;
+    margin-right: 10px;
+}
+.filter-form select {
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-size: 1em;
+}
+.filter-form button {
+    padding: 7px 20px;
+    background: #357ab8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: none;
+    transition: background 0.2s;
+}
+
+.filter-form button:hover {
+    background: #285a8c;
+}
+
+.btn-main {
+    padding: 7px 20px;
+    background: #357ab8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: none;
+    transition: background 0.2s;
+    display: inline-block;
+}
+.btn-main:hover {
+    background: #285a8c;
+}
+
+
+/* === Car list === */
+.cars-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: flex-start;
+}
+.car-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: 220px;
+    padding: 14px 12px 18px 12px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px #0001;
+}
+.car-img {
+    width: 180px;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    margin: 0 auto 10px auto;
+}
+.car-card h2 {
+    font-size: 1.1em;
+    margin: 8px 0 4px 0;
+    color: #357ab8;
+}
+.car-meta {
+    font-size: 0.97em;
+    color: #444;
+    margin-bottom: 6px;
+}
+.car-price {
+    font-weight: bold;
+    color: #285a8c;
+}
+.btn-secondary {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #eee;
+    color: #357ab8;
+    border-radius: 4px;
+    border: 1px solid #b0c6e7;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 8px;
+    transition: background 0.2s;
+}
+.btn-secondary:hover {
+    background: #dbeafc;
+    color: #285a8c;
+}
+.no-cars {
+    color: #888;
+    padding: 24px 0;
+    font-size: 1.1em;
+}
+
+/* === Car details page === */
+.car-details-modern {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0001;
+    max-width: 420px;
+    margin: 30px auto 0 auto;
+    padding: 28px 22px;
+    text-align: center;
+}
+.car-details-img {
+    width: 320px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    margin: 0 auto 18px auto;
+}
+.car-details-info h1 {
+    font-size: 1.4em;
+    color: #357ab8;
+    margin-bottom: 10px;
+}
+.car-details-meta {
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 14px;
+    text-align: left;
+}
+.car-details-price {
+    font-size: 1.1em;
+    color: #285a8c;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* === Login form === */
+.login-form {
+    max-width: 340px;
+    margin: 40px auto;
+    padding: 26px 20px 18px 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #0001;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+.login-form h2 {
+    margin-bottom: 14px;
+    font-size: 1.2em;
+    color: #357ab8;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.login-form button {
+    width: 100%;
+    padding: 8px 0;
+    background: #357ab8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 8px;
+    box-shadow: none;
+    transition: background 0.2s;
+}
+
+.login-form button:hover {
+    background: #285a8c;
+}
+
+.modal-error {
+    background: #ffeaea;
+    color: #d00;
+    border: 1px solid #d00;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 0.98em;
+    text-align: center;
+}
+
+
+/* Image styles */
+img {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 12px 0;
+}
+
+/* List styles */
+ul {
+    list-style: disc inside;
+    margin-bottom: 16px;
+    padding-left: 18px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+/* Heading styles */
+h2 {
+    margin: 10px 0 6px 0;
+    font-size: 1.3em;
+    color: #357ab8;
+    font-weight: bold;
+}
+
+h3, h4 {
+    margin: 6px 0;
+    font-weight: normal;
+}
+
+/* Paragraph styles */
+p {
+    margin: 4px 0;
+}
+
+/* Button styles */
+button {
+    padding: 8px 20px;
+    background: #357ab8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 8px 0;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #285a8c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-form small {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+
+.login-form a {
+    color: #357ab8;
+    text-decoration: none;
+    font-size: 0.95em;
+    margin-top: 6px;
+}
+.login-form a:hover {
+    text-decoration: underline;
+}
+

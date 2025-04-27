@@ -13,7 +13,7 @@ This is a simple project created during my first year of university (two years a
 - Car catalog with filters (brand, country, category)
 - Detailed car information page
 - Session management
-- Simple and clean CSS, easy to understand and modify
+- Simple and clean CSS for a modern look, easy to understand and modify
 - No database required (all data in PHP arrays)
 
 ## Requirements

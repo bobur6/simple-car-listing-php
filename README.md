@@ -6,7 +6,7 @@
 
 ## Project Description
 
-This is a simple project for first-year web development students. It demonstrates basic PHP skills: user login, car catalog browsing, filtering by brand/country/category, and viewing car details. All data is stored in PHP arrays, and the interface is styled with clean, minimal CSS.
+This is a simple project created during my first year of university (two years ago). It demonstrates basic PHP skills: user login, car catalog browsing, filtering by brand/country/category, and viewing car details. All data is stored in PHP arrays, and the interface is styled with clean, minimal CSS.
 
 ## Features
 - User authentication (login/logout)
